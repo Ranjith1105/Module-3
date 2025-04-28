@@ -1,30 +1,42 @@
 # Exp.No:3a
-## STRING - FIND AND REPLACE
+## STRING - FIND SEQUENCES OF LOWERCASE LETTERS JOINED WITH '@'
 
 ---
 
 ### AIM  
-To write a Python function to accept a string, identify a word to be replaced, and replace it with a new word provided by the user.
+To write a Python function to find sequences of lowercase letters that are joined with a '@'.
+
 
 ---
 
 ### ALGORITHM
 
-1. Begin the program.  
-2. Input the original string `str1` and the word to be replaced `replace_str`.  
-3. Ask the user to input the new replacement word `str2`.  
-4. Use the `replace()` method in Python to replace all occurrences of `replace_str` in `str1` with `str2`.  
-5. Store the modified string in `str3`.  
-6. Display the original string (`str1`) and the modified string (`str3`).  
-7. Terminate the program.
+1.Begin the program.
+2.Input the string text to search for lowercase sequences joined by '@'.
+3.Use regular expressions (re) to find all occurrences of lowercase letters followed by '@' and more lowercase letters.
+4.Display all matched sequences found in the string.
+5.Terminate the program.
 
 ---
 
 ### PROGRAM
-
+Reg no: 212223020021
+Name: Ranjith P
 ```
+import re
+a=input()
+b='[a-z]+@'
+if re.search(b,a):
+    print('Found a match!')
+else:
+    print('Not matched!')
 ```
 
 ### OUTPUT
+![Screenshot 2025-04-28 161241](https://github.com/user-attachments/assets/6c7df35e-1e9f-4e86-a6b5-71fde4a3fa85)
+
 
 ### RESULT
+The program finds and displays all sequences of lowercase letters joined with '@' from the input string.
+
+
