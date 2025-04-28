@@ -38,5 +38,5 @@ else:
 
 
 ### RESULT
-....................
+The program finds and displays all sequences of one uppercase letter followed by a number from the input string.
 
