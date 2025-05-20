@@ -11,11 +11,17 @@ To write a Python program that prints the minimum and maximum value of character
 ### ALGORITHM
 
 1.Begin the program.
+
 2.Accept a string input from the user.
+
 3.Find the character with the minimum ASCII value using the min() function.
+
 4.Find the character with the maximum ASCII value using the max() function.
+
 5.Create a tuple with the minimum and maximum characters.
+
 6.Print the tuple.
+
 7.End the program.
 
 
