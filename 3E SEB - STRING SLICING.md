@@ -1,5 +1,5 @@
 # Exp.No:3e
-## SEB - Size of the List 
+## SEB -  Determine the size of the List 
 
 ---
 
@@ -11,10 +11,15 @@ To write a Python program that creates a list with the size and elements entered
 ### ALGORITHM
 
 1.Begin the program.
+
 2,Accept an integer input n from the user to define the size of the list.
+
 3.Initialize an empty list.
+
 4.Loop n times to accept each element from the user and append it to the list.
+
 5.Print the final list.
+
 6.End the program.
 
 ---
