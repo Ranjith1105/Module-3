@@ -12,9 +12,13 @@ To write a Python function to find sequences of lowercase letters that are joine
 ### ALGORITHM
 
 1.Begin the program.
+
 2.Input the string text to search for lowercase sequences joined by '@'.
+
 3.Use regular expressions (re) to find all occurrences of lowercase letters followed by '@' and more lowercase letters.
+
 4.Display all matched sequences found in the string.
+
 5.Terminate the program.
 
 ---
