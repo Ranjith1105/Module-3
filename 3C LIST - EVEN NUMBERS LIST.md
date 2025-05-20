@@ -11,11 +11,17 @@ To write a Python program that displays the sum of all the values that end with 
 ### ALGORITHM
 
 1.Begin the program.
+
 2.Define a list of numbers.
+
 3.Loop through each number in the list.
+
 4.Check if the number ends with the digit 2 (i.e., number % 10 == 2).
+
 5.If it ends with 2, add it to the sum.
+
 6.Display the sum.
+
 7.End the program.
 
 
